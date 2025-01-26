@@ -14,3 +14,15 @@ Config = {
     MaxWood = 4,
     MinigameType = "circle" -- circle/skillbar
 }
+Config.Chopping = {
+    AnimationInterval = 3000, -- Thời gian mỗi lần chặt
+    SwingSounds = { -- Âm thanh ngẫu nhiên
+        'wood_chop_1.mp3',
+        'wood_chop_2.mp3',
+        'wood_chop_3.mp3'
+    },
+    AxeModels = { -- Model rìu ngẫu nhiên
+        `prop_axe_hon_01`,
+        `prop_ld_fireaxe`
+    }
+}
